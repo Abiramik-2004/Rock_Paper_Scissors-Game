@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <center><h2>ROCK PAPER SCISSOR</h2>
+        <img src="images/img.jpg"></center>
+
+    <div class="container">
+        <div class="rules">
+        <h3>GAME PLAY</h3>
+        <table>
+        <tr>
+        <th>WIN</th>
+        <td><img src="images/rock.jpg"></td>
+        <td><img src="images/paper.jpg"></td>
+        <td><img src="images/scissor.jpg"></td> 
+        </tr>
+        <tr>
+        <th>LOSE</th>
+        <td><img src="images/scissor.jpg"></td>  
+        <td><img src="images/rock.jpg"></td>  
+        <td><img src="images/paper.jpg"></td>
+        </tr>
+        </table>
+        </div>
+        <div class="field">
+            <p class="scoreboard">
+                Player Score: <span id="playerScore">0</span> | 
+                Computer Score: <span id="computerScore">0</span> |
+                Rounds Left: <span id="roundsLeft">5</span>
+            </p>
+            <div class="icon">
+                <div id="rock"><img src="images/r.jpg" onclick="game('ROCK')"></div>
+                <div id="paper"><img src="images/p.jpg" onclick="game('PAPER')"></div>
+                <div id="scissor"><img src="images/RPS.jpg" onclick="game('SCISSOR')"></div>
+            </div>
+            <div id="result"></div>
+            <button class="restart" onclick="restartGame()">Restart Game</button>
+        </div>
+    </div>
+        
+        
+    
+   
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
+<script src="index.js"></script>
+</body>
+
+</html>

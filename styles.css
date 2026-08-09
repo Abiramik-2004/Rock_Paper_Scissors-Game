@@ -1,0 +1,116 @@
+.field{
+    max-width: 800px;
+    width:90%;
+    max-height: 300px;
+    flex:1;
+    justify-content: center;
+    background-color:rgba(44, 43, 43, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  h2{
+      margin:20px;
+      font-size:30px;
+      
+  }
+  body{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  .container{
+      margin-top:50px;
+      display:flex;
+
+  }
+
+  .rules {
+    flex: 1;
+    min-width: 300px;
+    max-width:500px;
+    padding: 20px;
+     }
+
+ .rules table {
+    width: 100%;
+ }
+ .rules img{
+   max-width:80px;
+   
+ }
+  .icon{
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+  }
+  .icon img{
+      margin-left:70px;
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+      transition: transform 0.2s;
+  }
+  .icon img:hover {
+      transform: scale(1.1);
+  }
+  .scoreboard {
+     text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 20px;
+  }
+  .restart {
+      margin-top: 15px;
+      padding: 10px 15px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color:green;
+      color: white;
+      border: none;
+      cursor: pointer;
+      display: none;
+  }
+  .restart:hover {
+      background-color:lightgreen
+  }
+@media screen and (max-width: 768px) {
+.container {
+  flex-direction: column;
+  text-align: center;
+}
+
+.rules {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.icon img {
+  width: 70px;
+  height: 70px;
+}
+
+.field {
+  width: 95%;
+}
+}
+
+@media screen and (max-width: 480px) {
+h2 {
+  font-size: 24px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.scoreboard {
+  font-size: 16px;
+}
+
+.restart {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+}
+  
