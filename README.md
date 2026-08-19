@@ -9,17 +9,6 @@ The player competes against the computer in a five-round match where scores are 
 
 ---
 
-## Screenshots
-
-### Gameplay Screen
-<img width="1823" height="803" alt="GAMEPLAY" src="https://github.com/user-attachments/assets/e4d51104-a971-4680-a65c-eee65a1f1f1b" />
-
-
-### Result Screen
-<img width="1908" height="827" alt="RESULT" src="https://github.com/user-attachments/assets/b12d1a3d-1443-4af2-a0fa-a0d5a7df9a91" />
-
----
-
 ## Features
 
 - Interactive Rock Paper Scissors gameplay
