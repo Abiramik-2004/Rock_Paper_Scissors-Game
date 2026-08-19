@@ -112,8 +112,8 @@ Computer Science & Engineering Graduate | Aspiring Full Stack Developer
 
 ### Connect With Me
 
-* **GitHub:** Add your GitHub profile link
-* **LinkedIn:** Add your LinkedIn profile link
+* **GitHub:** https://github.com/Abiramik-2004
+* **LinkedIn:** https://www.linkedin.com/in/abirami-kanthasamy/
 
 ---
 
