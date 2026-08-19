@@ -2,19 +2,6 @@
 
 A fun and interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScript**. Play against the computer in a five-round match, track your score in real time, and see the final winner at the end.
 
-## 🎮 Game Preview
-
-> Add your project screenshot here.
-
-```text
-images/
-└── game-preview.png
-```
-
-```markdown
-![Rock Paper Scissors Game](images/game-preview.png)
-```
-
 ## ✨ Features
 
 * 🪨 Rock, Paper, and Scissors gameplay
